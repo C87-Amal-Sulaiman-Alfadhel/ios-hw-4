@@ -13,6 +13,10 @@ struct Song {
     
 }
 
+struct Artists {
+    var artist: String
+}
+ 
 var musicData = [
     Song(name: "Sweater Weather", artistName: "The Neighbourhood"),
     Song(name: "Wiped Out!", artistName: "The Neighbourhood"),
@@ -20,4 +24,12 @@ var musicData = [
     Song(name: "The Beach", artistName: "The Neighbourhood"),
     Song(name: "Ferrari", artistName: "The Neighbourhood"),
     Song(name: "Wires", artistName: "The Neighbourhood")
+]
+
+var artists = [
+    Artists(artist: "The Neighbourhood"),
+    Artists(artist: "Post Malone"),
+    Artists(artist: "Khalid"),
+    Artists(artist: "Travis Scott"),
+    Artists(artist: "Logic")
 ]

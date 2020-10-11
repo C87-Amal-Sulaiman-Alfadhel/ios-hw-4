@@ -21,6 +21,8 @@
 		250F875F252D3DBA00240752 /* Wires.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 250F8759252D3DBA00240752 /* Wires.mp3 */; };
 		250F8762252D5C7F00240752 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F8761252D5C7F00240752 /* File.swift */; };
 		250F8765252D6F2400240752 /* SongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F8764252D6F2400240752 /* SongVC.swift */; };
+		258FC3FD25334DF400CDD700 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258FC3FC25334DF400CDD700 /* TableViewController.swift */; };
+		258FC40025334E4B00CDD700 /* MyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258FC3FF25334E4B00CDD700 /* MyCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		250F8759252D3DBA00240752 /* Wires.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wires.mp3; sourceTree = "<group>"; };
 		250F8761252D5C7F00240752 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		250F8764252D6F2400240752 /* SongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongVC.swift; sourceTree = "<group>"; };
+		258FC3FC25334DF400CDD700 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		258FC3FF25334E4B00CDD700 /* MyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				250F8731252D2AC800240752 /* ViewController.swift */,
 				250F8761252D5C7F00240752 /* File.swift */,
 				250F8733252D2AC800240752 /* Main.storyboard */,
+				258FC3FF25334E4B00CDD700 /* MyCellTableViewCell.swift */,
+				258FC3FC25334DF400CDD700 /* TableViewController.swift */,
 				250F8764252D6F2400240752 /* SongVC.swift */,
 				250F8736252D2ACA00240752 /* Assets.xcassets */,
 				250F8738252D2ACA00240752 /* LaunchScreen.storyboard */,
@@ -176,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				250F8732252D2AC800240752 /* ViewController.swift in Sources */,
+				258FC3FD25334DF400CDD700 /* TableViewController.swift in Sources */,
 				250F8762252D5C7F00240752 /* File.swift in Sources */,
+				258FC40025334E4B00CDD700 /* MyCellTableViewCell.swift in Sources */,
 				250F872E252D2AC800240752 /* AppDelegate.swift in Sources */,
 				250F8730252D2AC800240752 /* SceneDelegate.swift in Sources */,
 				250F8765252D6F2400240752 /* SongVC.swift in Sources */,

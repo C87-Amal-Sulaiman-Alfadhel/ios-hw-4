@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     var songName = ""
     var singerName = ""
     var songClicked = ""
+    var names: Artists!
 
     
     override func viewDidLoad() {
@@ -43,6 +44,7 @@ class ViewController: UIViewController {
         albumImg4.setBackgroundImage(UIImage(named: musicData[4].name), for: .normal)
         albumImg5.setBackgroundImage(UIImage(named: musicData[5].name), for: .normal)
     }
+        
     
     func setSongName() {
         albumLabel0.text = musicData[0].name
